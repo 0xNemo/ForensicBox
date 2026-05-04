@@ -4,21 +4,14 @@ Lightweight setup script for Windows forensic and reverse engineering VMs. Insta
 
 ## What it installs
 
-**Reverse Engineering** — Ghidra, x64dbg, Detect It Easy, PEStudio, FLOSS, YARA
-
-**Disk Forensic** — Eric Zimmerman Tools (KAPE, MFTECmd, EvtxECmd, PECmd, RECmd...), Hayabusa, Chainsaw, Volatility 3, Autopsy, The Sleuth Kit
-
-**Network Forensic** — Wireshark, tshark, NetworkMiner, Npcap
-
-**Acquisition** — dd for Windows
-
-**Mobile RE** — JADX, APKTool, dex2jar, ByteCode Viewer, ADB Platform Tools, Frida, Objection
-
-**Mobile Forensic** — ALEAPP (CLI + GUI), iLEAPP (CLI + GUI), VLEAPP, RLEAPP, MVT
-
-**Utilities** — Sysinternals Suite, CyberChef, HxD, Everything, VS Code, 7-Zip, Notepad++
-
-**Python libraries** — pefile, yara-python, oletools, python-evtx, malduck, androguard, apkid, scapy, dpkt, pandas, matplotlib
+- **Reverse Engineering** — Ghidra, x64dbg, Detect It Easy, PEStudio, FLOSS, YARA
+- **Disk Forensic** — Eric Zimmerman Tools (KAPE, MFTECmd, EvtxECmd, PECmd, RECmd...), Hayabusa, Chainsaw, Volatility 3, Autopsy, The Sleuth Kit
+- **Network Forensic** — Wireshark, tshark, NetworkMiner, Npcap
+- **Acquisition** — dd for Windows
+- **Mobile RE** — JADX, APKTool, dex2jar, ByteCode Viewer, ADB Platform Tools, Frida, Objection
+- **Mobile Forensic** — ALEAPP (CLI + GUI), iLEAPP (CLI + GUI), VLEAPP, RLEAPP, MVT
+- **Utilities** — Sysinternals Suite, CyberChef, HxD, Everything, VS Code, 7-Zip, Notepad++
+- **Python libraries** — pefile, yara-python, oletools, python-evtx, malduck, androguard, apkid, scapy, dpkt, pandas, matplotlib
 
 ## Manual installs
 
