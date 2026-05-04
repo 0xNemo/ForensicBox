@@ -1,6 +1,6 @@
 # ForensicBox
 
-Lightweight setup script for Windows forensic and reverse engineering VMs. Installs the essential tools without the overhead of full distributions like FLARE-VM.
+> Lightweight setup script for Windows forensic and reverse engineering VMs. Installs the essential tools without the overhead of full distributions like FLARE-VM.
 
 ## What it installs
 
