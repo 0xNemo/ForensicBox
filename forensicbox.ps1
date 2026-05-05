@@ -518,7 +518,7 @@ try {
 Log-Info "Telechargement de ALEAPP GUI..."
 try {
     $aleappRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/abrignoni/ALEAPP/releases/latest" -UseBasicParsing
-    $aleappAsset = $aleappRelease.assets | Where-Object { $_.name -like "aleapp-v*-Windows.zip" } | Select-Object -First 1
+    $aleappAsset = $aleappRelease.assets | Where-Object { $_.name -like "aleappGUI-v*-Windows.zip" } | Select-Object -First 1
     if ($aleappAsset) {
         $aleappGui = "$env:TEMP\aleapp-gui.zip"
         Invoke-WebRequest -Uri $aleappAsset.browser_download_url -OutFile $aleappGui -UseBasicParsing
@@ -551,7 +551,7 @@ try {
 Log-Info "Telechargement de ILEAPP GUI..."
 try {
     $ileappRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/abrignoni/ILEAPP/releases/latest" -UseBasicParsing
-    $ileappAsset = $ileappRelease.assets | Where-Object { $_.name -like "ileapp-v*-Windows.zip" } | Select-Object -First 1
+    $ileappAsset = $ileappRelease.assets | Where-Object { $_.name -like "ileappGUI-v*-Windows.zip" } | Select-Object -First 1
     if ($ileappAsset) {
         $ileappGui = "$env:TEMP\ileapp-gui.zip"
         Invoke-WebRequest -Uri $ileappAsset.browser_download_url -OutFile $ileappGui -UseBasicParsing
