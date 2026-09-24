@@ -13,6 +13,7 @@
 
 - RunPowershellAdmin.bat and CreateCase.bat. 1st just open powershell as admin and 2nd create a new case folder in C:\Cases with incremental ids.
 
+---
 
 > [!WARNING]
 > Windows Defender **Can be removed** at the end of the installation. The script ask you if you want to. 
