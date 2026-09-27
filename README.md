@@ -25,8 +25,11 @@
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
-.\forensicbox.ps1
+irm https://raw.githubusercontent.com/0xNemo/ForensicBox/refs/heads/main/forensicbox.ps1 | iex
 ```
+or
+Download .ps1 and
+`.\forensicbox.ps1`
 
 ### Options
 
